@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-26T23:35:17.506Z",
+        "line": 4,
+        "name": "valid admin login",
+        "description": "",
+        "id": "login;valid-admin-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4154000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on SYNTAX HRMS login page",
+            "match": {
+              "location": "steps.LoginSteps.user_is_on_syntax_hrms_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid credentials within Username textbox",
+            "match": {
+              "location": "steps.LoginSteps.user_enters_valid_credentials_within_username_textbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid credentials within Password textbox",
+            "match": {
+              "location": "steps.LoginSteps.user_enters_valid_credentials_within_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1569000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks ‘LOGIN’  button",
+            "match": {
+              "location": "steps.LoginSteps.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Dashboard will display logged in as admin",
+            "match": {
+              "location": "steps.LoginSteps.the_dashboard_will_display_logged_in_as_admin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
